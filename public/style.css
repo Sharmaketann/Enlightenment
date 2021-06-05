@@ -12,6 +12,7 @@ body{
     background-repeat: no-repeat;
     font-family:"Limelight", sans-serif;
     background-size: cover;
+    
 
 }
 
@@ -27,14 +28,12 @@ body{
     justify-content:center;
     align-content: center;
     align-items: center;
-    margin-top:200px;
-    width: 700px;
-    margin-left:270px;
     text-align:center;
-    font-size: 0.8rem;
     flex-wrap: wrap;
-    border: 5px solid rgb(18, 132, 185);
-    border-style: dotted dashed solid double;
+    padding-left:550px;
+    padding-right:600px;
+    padding-top:300px;
+    padding-bottom: 50px;
 }
 
 p{
@@ -66,17 +65,66 @@ h1 {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    margin-left:580px;
-    margin-top:50px;
-    position: relative;
+    margin-top:1px;
+    width:100%;
+
 }
 
 .button1 {
     background-color: white;
-    color: black;
+    color: rgb(31, 29, 29);
     background-color: inherit;
     font-family: Poppins;
     font-weight: bold;
     text-decoration: underline;
     color:blueviolet;
+}
+
+@media screen and (max-width:420px) {
+    .title{
+        font-size:40px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    body{
+        background-image: url("mountain.jpg");
+        background-image: cover;
+        background-repeat: no-repeat;
+        color:white;
+       
+    }
+
+    p{
+        font-size:15px;
+        color:red;
+    }
+    .advice{
+        position:absolute;
+        font-size: 30px;
+        margin-right:865px;
+        width:100%;
+        margin-top:250px;
+        padding-left:150px;
+    }
+
+    .advice-slip{
+        border-style: none;
+        color:#ac5085;
+        padding-top:100px;
+    }
+
+    h2{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .button{
+       
+        margin-bottom: 500px;
+        margin-top:300px;
+        color:rgb(212, 177, 177);
+    }
 }
