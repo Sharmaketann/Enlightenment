@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:rgb(26, 21, 21);
+    background-image:url('page.jpg');
+    background-repeat: no-repeat;
+    font-family:"Limelight", sans-serif;
+    background-size: cover;
+
+}
+
+.title{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 70px;
+}
+
+.advice-slip{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+    margin-top:200px;
+    width: 700px;
+    margin-left:270px;
+    text-align:center;
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    border: 5px solid rgb(18, 132, 185);
+    border-style: dotted dashed solid double;
+}
+
+p{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 72px;
+    background-image: linear-gradient(45deg, #a80077, #66ff00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left:580px;
+    margin-top:50px;
+    position: relative;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    background-color: inherit;
+    font-family: Poppins;
+    font-weight: bold;
+    text-decoration: underline;
+    color:blueviolet;
+}
